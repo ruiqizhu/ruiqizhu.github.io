@@ -1,1 +1,0 @@
-// Scripts are put in othr JS files
