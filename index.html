@@ -1,285 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rich Zhu</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- Link to image of the browser tab -->
+    <link rel="shortcut icon" href="portfolio/tartan.png">
+    <!-- Link to CSS stylesheet -->
+    <!-- Stylesheet is from dunked.cdn.speedyrails.net, a website that provides css & js for building portfolios -->
+    <link rel="preload" href="css/lightbox-dunked.min.css" media="screen" as="style" onload="this.rel='stylesheet'"/>
+    <link rel="stylesheet" href="css/style_processed.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:300,400,500,600,700" type="text/css" />
 
-    <title>Super Rich</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <style type="text/css">.done {
+        background:#FF0;
+        text-decoration:line-through;}
+    </style>   
 </head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Rich Zhu</a>
+<body class="page-home is_home lightbox-enabled">
+    <div class="wrap">
+        <header class="site-header cf">
+            <div class="site-title">
+                <a href="index.html">Rich Zhu</a>
             </div>
- 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+            <!-- Navigation Bar -->           
+            <nav id="navigation" class="site-nav">
+                <ul id="pages-nav" class="list-pages">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a href="index.html">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a href="static/Ruiqi_Zhu.pdf" data-link-type="page-redirect"  target="_blank">Resume</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="https://www.linkedin.com/in/ruiqi-zhu/" data-link-type="page-redirect"  target="_blank">LinkedIn</a></li>
+                    <li>
+                        <a href='mailto:ruiqizhu@andrew.cmu.edu' data-link-type="page-redirect"  target="_blank">Contact</a>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Where Business Meets Technology</h1>
-                <hr>
-                <p>My name is Rich and I am a sophomore studying information systems at Carnegie Mellon University. I am interested in venture capital, entrepreneurship, web development, cloud computing, and how an effective business model can transform technology.</p>
-                <a href="material/Rich_Zhu.pdf", target="_blank", class="btn btn-primary btn-xl page-scroll">My Resume</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">My Experience</h2>
-                    <hr class="light">
-                    <p class="text-faded">Rich is a student in Carnegie Mellon University pursuing a degree in information systems. He is passionate about how to apply technology in the right business context. Rich is going to intern at Microsoft Asia Pacific Research Center this summer and join the China Cloud Computing team. He has worked at the Venture Capital Firm called Plug and Play which is based in Sunnyvale. He worked on cross border projects to bring U.S. startups to China. Furthermore, Rich also worked in a startup called zSpace that provides educational solutions through virtual reality.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user text-primary sr-icons"></i>
-                        <h3>Business Development</h3>
-                        <p class="text-muted">Venture capital, investment, business plan, marketing </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-cog text-primary sr-icons"></i>
-                        <h3>Software Engineering</h3>
-                        <p class="text-muted">Python, C, SQL, Web Development, Ruby on Rails</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-camera text-primary sr-icons"></i>
-                        <h3>UI / UX</h3>
-                        <p class="text-muted">Storyborading, Wireframing, Prototyping</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Language & Culture</h3>
-                        <p class="text-muted">Proficient in Chinese and English, elementary Japanese</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="projects/microsoft.html" class="portfolio-box", target="_blank">
-                        <img src="img/portfolio/thumbnails/1.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Software Engineer Intern
-                                </div>
-                                <div class="project-name">
-                                    Microsoft Asia Pacific Research Center
-                                </div>
+            </nav>
+        </header>
+        <!-- end of header -->
+        <!-- Display all the projects -->
+        <section class="site-content">
+            <div id="ajax-projects-feed" class="projects-feed cf">
+                <!-- LinkedIn Data Science Intern -->
+                <article id="p1" class="project brick cf" data-img-url="portfolio/LinkedIn2.jpg">
+                    <a href="portfolio/p1(linkedin).html" title="LinkedIn">
+                        <div class="thumb">
+                            <!-- https://dunked.cdn.speedyrails.net/assets/prod/120709/600x600-2_p1bj7io0lpdboduf15hqofuclu3.jpg 1x -->
+                            <img srcset="portfolio/LinkedIn.jpg" alt="LinkedIn">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">LinkedIn<br/>Data Science Intern</h2>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="projects/pnp.html" class="portfolio-box", target="_blank",>
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Cross Border Associate
-                                </div>
-                                <div class="project-name">
-                                    Plug and Play Tech Center
-                                </div>
+                </article>
+                <!-- CMU Summit -->
+                <article id="p2" class="project brick cf" data-img-url="portfolio/summit2.jpg">
+                    <a href="portfolio/p2(summit).html" title="CMU Summit">
+                        <div class="thumb">
+                            <img srcset="portfolio/summit.jpg" alt="Summit">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">CMU Summit<br/>Competition & Conference</h2>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="projects/zSpace.html" class="portfolio-box", target="_blank">
-                        <img src="img/portfolio/thumbnails/3.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Research Assistant
-                                </div>
-                                <div class="project-name">
-                                    zSpace
-                                </div>
+                </article>
+                <!-- Plug and Play -->
+                <article id="p3" class="project brick cf" data-img-url="portfolio/pnp2.jpg">
+                    <a href="portfolio/p3(pnp).html" title="Plug and Play">
+                        <div class="thumb">
+                            <img srcset="portfolio/pnp.jpg" alt="PNP">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">Plug and Play<br/>Business Intern</h2>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="projects/worldnest.html" class="portfolio-box", target="_blank">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Founder
-                                </div>
-                                <div class="project-name">
-                                    WorldNest Website
-                                </div>
+                </article>
+                <!-- zSpace -->
+                <article id="p4" class="project brick cf" data-img-url="portfolio/zspace2.png">
+                    <a href="portfolio/p4(zspace).html" title="zSpace">
+                        <div class="thumb">
+                            <img srcset="portfolio/zspace.jpg" alt="zSpace">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">zSpace<br/>Software Engineer Intern</h2>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="projects/peerstudio.html" class="portfolio-box", target="_blank">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Research Assistant
-                                </div>
-                                <div class="project-name">
-                                    PeerStudio
-                                </div>
+                </article>
+                <!-- Microsoft -->
+                <article id="p5" class="project brick cf" data-img-url="portfolio/microsoft2.jpg">
+                    <a href="portfolio/p5(microsoft).html" title="Microsoft">
+                        <div class="thumb">
+                            <img srcset="portfolio/microsoft.jpg" alt="Microsoft">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">Microsoft<br/>PM Intern</h2>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="projects/high_school.html" class="portfolio-box", target="_blank">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Bejing Haidian International School
-                                </div>
-                                <div class="project-name">
-                                    High School Projects
-                                </div>
+                </article>
+                <!-- Human-Computer Interaction Institute -->
+                <article id="p6" class="project brick cf" data-img-url="portfolio/hcii2.jpg">
+                    <a href="portfolio/p6(hcii).html" title="HCII">
+                        <div class="thumb">
+                            <img srcset="portfolio/hcii.jpg" alt="HCII">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">Human-Computer Interaction Institute<br/>Research Assistant</h2>
                             </div>
                         </div>
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>
+                </article>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>The right technology in the right context.</h2>
-               
-            </div>
-        </div>
-    </aside>
+                <!-- Communication Design -->
+                <article id="p7" class="project brick cf" data-img-url="portfolio/design2.jpeg">
+                    <a href="portfolio/p7(design).html" title="Communication Design">
+                        <div class="thumb">
+                            <img srcset="portfolio/design.png" alt="Design">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">Communication Design Works</h2>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <!-- College Projects -->
+                <article id="p8" class="project brick cf" data-img-url="portfolio/cmu2.png">
+                    <a href="portfolio/p8(college).html" title="College Projects">
+                        <div class="thumb">
+                            <img srcset="portfolio/cmu.jpg" alt="CMU">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">College Projects</h2>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <!-- High School Projects -->
+                <article id="p9" class="project brick cf" data-img-url="portfolio/haiwai2.jpg">
+                    <a href="portfolio/p9(high_school).html" title="High School">
+                        <div class="thumb">
+                            <img srcset="portfolio/haiwai.jpg" alt="High School">
+                        </div>
+                        <div class="thumbnail-title-wrap">
+                            <div class="center">
+                                <h2 class="title title--thumbnail">High School Projects</h2>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                   
-                </div>
-                <div class="col-lg-3 col-lg-offset-1 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>650-660-9827</p>
-                </div>
-                <div class="col-lg-3 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">ruiqizhu@andrew.cmu.edu</a></p>
-                </div>
-                <div class="col-lg-3 text-center">
-                <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:50px"></i>
-                    <p><a href="https://www.linkedin.com/in/ruiqi-zhu-69648bb2/">LinkedIn Profile</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <!--END of Projects Feed-->
+            </div>         
+        <!--END Site Content -->
+        </section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+        <footer class="site-footer cf">
+            <p class="footer-text"> </p>
+        </footer>
+    <!--END of Wrapper-->
+    </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
+    <!-- Display all the grids -->
+    <div id="modal" class="modal">
+        <div id="modal-content" class="modal-content"></div>
+        <button id="close-button" class="button button--close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-close-icon"></use></svg></button>
+    </div>
+    
+    <!-- Links to external Javascript files -->
+    <!-- Effect for showing transition preview on the grid -->
+    <script type="text/javascript" src="js/transition.js"></script>
+    <!-- Script for loading CSS asynchronously -->
+    <script src="js/LoadCSS.js"></script>
+    <script src="js/lightbox-dunked.min.js"></script>
+    <script src="js/dunked_lib.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+ 
 </body>
-
 </html>
